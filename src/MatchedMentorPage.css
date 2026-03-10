@@ -1,0 +1,13 @@
+.study-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+video {
+  transform: scaleX(-1); /* Mirror effect for self video */
+}
+
+@media (max-width: 768px) {
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+}
